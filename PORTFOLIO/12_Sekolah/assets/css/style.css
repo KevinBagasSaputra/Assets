@@ -1,0 +1,310 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Sans-serif;
+
+}
+
+
+/* NAVBAR START */
+nav{
+    width: 1200px;
+    margin: auto;
+    position: fixed;
+
+    margin-left: 332px;
+
+    z-index: 1;
+}
+
+nav .container{
+background-color: rgb(32, 26, 26);
+display: inline-block;
+
+margin-top: -5px;
+}
+
+nav .container ul{
+    padding: 25px;
+    width: 1200px;
+    
+}
+
+nav .container ul li{
+    list-style-type: none;
+    
+    display: inline-block;
+
+}
+
+nav .container ul li .judul{
+    margin-left: 80px;
+    margin-right: 240px;
+
+    font-weight: 900;
+    color: white;
+}
+
+nav .container ul li a{
+    color: rgba(255, 255, 255, 0.579);
+
+    padding: 20px;
+    text-decoration: none;
+    transition-delay: 802ms;
+    transition-timing-function: ease-out;
+
+    border-radius: 6px;
+
+}
+
+nav .container ul li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-underline-offset: 20px;
+    transition: all 550ms ease;
+
+    box-shadow: 10px 50px 200px 2px;
+
+
+    color: white;
+    
+}
+/* NAVBAR END */
+
+
+
+
+
+
+/* HERO START */
+.hero{
+    width: 1260px;
+    margin: auto;
+}
+
+.hero .container .card{
+    width: 1240px;
+    margin: auto;
+}
+
+.hero .container .card .container img{
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* HERO END */
+
+
+
+/* Info Sekolah START */
+.info{
+    width: 1200px;
+    margin: auto;
+
+    margin-top: -80px;
+    position: relative;
+}
+
+.info .container{
+    box-shadow: 0 0 4px 0.5px;
+    background-color: white;
+
+    padding: 20px;
+}
+
+.info .container p{
+    color: red;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: white;
+    padding: 2px;
+
+    border: 3px solid red;
+    border-radius: 6px;
+
+    width: 95px;
+}
+
+
+
+
+/* Info Sekolah END */
+
+
+
+
+/* Sarana dan Prasarana START */
+.sarana{
+    width: 1200px;
+    margin: auto;
+
+    padding: 20px;
+}
+
+.sarana .container{
+    display: flex;
+}
+
+.sarana .container .card-1 h2{
+    padding: 20px;
+
+    color: white;
+
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+
+    font-weight:900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.sarana .container .card-1{
+    background-color: #FBB307;
+}
+
+.sarana .container .card-1 img{
+    float: left;
+
+    width: 300px;
+    height: 250px;
+    
+    border: 2px solid #FBB307;
+}
+
+.sarana .container .card-1 a{
+    text-decoration: none;
+
+    transition: all 550ms ease 155ms;
+}
+
+
+.sarana .container .card-1 a:hover{
+    width: 320px;
+    height: 250px;
+
+    background-color: #FBB307;
+    transition: all 550ms ease-in-out;
+    /* box-shadow: 210px 0 20px 10px #FBB307; */
+    /* border-radius: 400px; */
+
+
+
+    /* width: 500px; */
+    z-index: 1;
+
+}
+
+
+.sarana .sarana-1, .sarana-2, .sarana-3, .sarana-4{
+    color: white;
+
+    text-decoration: underline;
+    text-underline-offset: 1px;
+
+}
+
+
+/* Sarana dan Prasarana END */
+
+
+/* kegiatan START */
+.kegiatan{
+    width: 1200px;
+    margin: auto;
+
+    color: black;
+
+    padding: 20px;
+
+}
+
+.kegiatan .container{
+    display: flex;
+}
+
+.kegiatan .container .card-2 a{
+    text-decoration: none;
+
+    transition: all 550ms ease 155ms;
+}
+
+
+.kegiatan .container .card-2 h2{
+    padding: 20px;
+
+    color: white;
+
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+
+    font-weight:900;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kegiatan .container .card-2{
+    background-color: #006A47;
+}
+
+
+.kegiatan .container .card-2 img{
+    float: left;
+
+    width: 300px;
+    height: 250px;
+
+    border: 2px solid #006A47;
+
+    transition: all 950ms ease-in;
+}
+
+.kegiatan .container .card-2 a{
+
+    background-color: #026A49;
+
+    transition: all 550ms ease 155ms;
+}
+
+
+
+.kegiatan .container .card-2 a:hover{
+    width: 320px;
+    height: 250px;
+
+    transition: all 550ms ease-in-out;
+    background-color: #026A49;
+}
+
+
+.kegiatan .kegiatan-1, .kegiatan-2, .kegiatan-3, .kegiatan-4{
+    color: white;
+
+    text-decoration: underline;
+    text-underline-offset: 1px;
+
+}
+
+/* kegiatan END */
+
+
+/* Footer START */
+.footer{
+    margin: auto;
+    width: 100%;
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer .container{
+    padding: 20px;
+    background-color: #006A47;
+}
+
+.footer .container p{
+    text-align: center;
+}
+/* Footer END */

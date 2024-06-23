@@ -1,0 +1,169 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins", sans-serif;
+    
+}
+
+/* Warna background #ffd000 */
+
+/* Navbar Start */
+.navbar{
+    margin: auto;
+    width: 100%;
+    margin-left: 390px;
+}
+
+.navbar .container{
+
+}
+
+.navbar .container ul{
+    background-color: gold;
+    padding: 20px;
+
+    position: fixed;
+    
+}
+
+.navbar .container ul li{
+    display: inline-block;
+}
+
+.navbar .container ul .judul{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    list-style-type: none;
+
+    margin-right: 390px;
+}
+.navbar .container ul li a{
+    color: black;
+    
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 80px;
+
+}
+/* Navbar End */
+
+/* Library Start */
+.library{
+    margin: auto;
+    width: 1200px;
+
+}
+
+.library .container{
+
+}
+
+.library .container ul{
+    background-color: #30302d;
+    text-align: center;
+}
+
+.library .container ul li{
+    display: inline-block;
+}
+
+.library .container ul li h2{
+    color:white;
+    font-weight: 700;
+
+    padding: 10px;
+}
+
+.library .container ul li .paling-populer{
+    color: white;
+    font-weight: 700;
+
+    text-decoration: none;
+    font-size: 18.7px;
+}
+.library .container ul li .lihat-semua{
+    color: white;
+
+    margin-left: 880px;
+}
+/* Content End */
+
+
+
+.background-buku{
+    background-color: #30302d;
+}
+
+/* Card Start */
+.card{
+    float: left;
+
+    background-color: #30302d;
+    /* height: 400px; #Defaultnya */
+
+    padding-bottom: 2px;
+}
+
+.card .container{
+    padding:  10px;    
+}
+
+.card .container a{
+    text-decoration: none;
+}
+.card .container a img{
+    width: 200px;
+    height: 300px;
+
+    padding: 7px;
+    border: 0.1px solid white;
+}
+
+.card .container a h3{
+    color: white;
+
+    margin-top: -20px;
+    padding: 10px;
+    width: 200px;
+}   
+
+
+
+/* container-hover Start */
+#container-hover:hover{
+    background-color: black;
+    font-weight: 700;
+    border-bottom: 3.2px solid #ffb700;
+}
+/* container-hover End */
+
+/* Card End */
+
+
+
+/* About Start */
+.about{
+    margin: auto;
+
+    width: 1200px;
+    background-color: black;
+    margin-top: 500px;
+
+    color: white;
+}
+/* About End */
+
+
+
+/* ICONS START */
+.fa-star{
+    color: #ffb700;
+
+    margin-right: 5px;
+}
+/* ICONS END */

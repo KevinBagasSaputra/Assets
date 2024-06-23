@@ -1,0 +1,485 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+/* NAVBAR STARRT */
+nav{
+    width: 100%;
+    margin: auto;
+
+}
+
+nav .container{
+    font-family: "Poppins", sans-serif;
+
+    text-align: center;
+
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+
+nav .container ul{
+    background-color: white;
+}
+
+        /* JUDUL START */
+
+        nav .container ul .judul{
+            font-size: 24px; 
+            font-weight: 700;
+
+            color: black;
+
+            list-style-type: none;
+            text-decoration: none;
+
+            margin-left: 40px;
+            margin-right: 550px;
+        }
+
+        /* JUDUL END */
+
+
+
+
+nav .container ul li{
+    display: inline-block;
+
+    padding: 10px;
+}
+
+nav .container ul li a{
+    text-decoration: none;
+    list-style-type: none;
+
+    color: rgba(17, 17, 17, 0.822);
+}                   /*TRANSITION NAVBAR*/
+                    nav .container ul li a:hover{
+                        color: black;
+                    }
+/* NAVBAR END */
+
+
+/* HEADER START */
+
+.header{
+    position: relative; /* Menambahkan posisi relatif */
+    width: 100%; /* Mengubah lebar menjadi 100% agar lebih responsif */
+    height: 600px; /* Menyesuaikan tinggi dengan konten */
+
+}
+
+                /* HEADER LATAR BELAKANG GAMBAR */
+                .header .img-header{
+                    background-image: url("D:/File_Rumah/PORTOFOLIO/8_AnimeLibrary/assets/img/header/perpustakaan.jpg");
+                    
+                    background-repeat: no-repeat;
+                    background-size: cover; /* Menggunakan cover agar gambar latar belakang terisi seluruh area */
+                    width: 100%;
+                    height: 100%;
+                    background-position: center;
+                    position: absolute;
+                    opacity: 0.9;
+                }
+                
+                .header-text {    
+                    position: absolute; /* Mengubah posisi teks menjadi absolut */
+                    transform: translate(-50%, -50%); /* Menggeser teks ke posisi yang diinginkan*/ 
+                    left: 50%; /* Mengatur posisi ke bagian tengah horizontal*/
+                    top: 50%; /* Mengatur posisi ke bagian tengah vertikal*/ 
+                    text-align: center; /*Mengatur teks agar berada di tengah*/
+                
+                    color: white; /* Mengubah warna teks menjadi putih */
+                    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+                    font-weight: 700; /* Mengatur ketebalan font */
+                }
+                
+                .header-text h2 {
+                    font-size: 36px; /* Mengatur ukuran font judul */
+                    margin-bottom: 20px; /* Memberikan margin bawah pada judul */
+                }
+                
+                .header-text p {
+                    font-size: 18px; /* Mengatur ukuran font paragraf */
+                    margin: 0; /* Menghilangkan margin bawa */
+                }
+                /* HEADER LATAR BELAKANG GAMBAR */
+
+
+        /* Button */
+        .header-text .button{            
+            color: black;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 20px;
+
+            font-size: 16.8px;
+            padding: 10px;
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+
+            transition: all 500ms ease;
+        }                           .header-text .button:hover{
+
+                                    color: white;
+                                    background-color: black;
+                                    border: 2px solid white;
+                                    border-radius: 20px;
+                                    
+                                    font-family: "Poppins", sans-serif;
+                                    font-weight: 700;
+                                    transition: all 500ms ease;
+
+                                    }
+        /* Button */
+
+
+/* HEADER END */
+
+
+
+/* ABOUT START */
+.about{
+    width: 1200px;
+    margin: auto;
+
+    font-family:' Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .about .container{
+    
+} */
+
+.about .container h2{
+    text-align: center;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    color: rgb(0, 0, 0);
+
+}
+
+
+                /* Tentang AnimeLibrary */
+                .about-float{
+                    float: left;
+
+                    width: 800px;
+                }
+
+                .about .container img{
+                    width: 400px;
+                    height: 400px;
+
+                    background-image: url("https://cdn.idntimes.com/content-images/community/2021/06/eq8cpfqxuaaeva2-cropped-56965fbaa68adf470a17cc45ea5d328d-200b78cba9ca8a1f333c051433a3797e_600x400.jpg");
+                    background-position:right;
+                    box-shadow: 12px 6px 2px 4px;
+                    float: left;
+                }
+
+                        /* Keuntungan */
+                        .keuntungan{
+                            margin-top: 30px;
+                            text-align: center;
+                            background-color: #F0F2F5;
+
+                        }       
+
+                        .keuntungan-content{
+                            width: 800px;
+
+                            display: flex;
+                        }
+
+                        /* Keuntungan LEFT */
+                        .keuntungan-content .left i{    /*Icons Buku*/
+                            font-size: 40px; 
+                            margin-left: 100px; 
+
+                            margin-bottom: 20px;
+                        }
+                        
+                        .keuntungan-content .left h4{
+                            text-align: center;
+                            margin-bottom: 20px;
+
+                        }
+
+                        .keuntungan-content .left{
+                            text-align: left;
+                            
+                            width: 230px;
+                            text-align: justify;
+
+                            margin-top: 30px;
+                        }
+
+
+                                /* Keuntungan CENTER */
+                                .keuntungan-content .center i{    /*Icons Buku*/
+                                    
+
+                                    font-size: 40px; 
+                                    margin-left: 100px; 
+
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .keuntungan-content .center h4{
+                                    text-align: center;
+                                    margin-bottom: 20px;
+
+                                }
+
+                                .keuntungan-content .center{
+                                    text-align: center;
+                                    margin-left: 50px;
+                                    
+                                    width: 230px;
+                                    text-align: justify;
+
+                                    margin-top: 30px;
+                                }
+
+/* ABOUT END */
+
+
+
+
+
+/* LIBRARY START */
+.library {
+    width: 1200px; /* Mengisi lebar layar */
+    margin: auto;
+    margin-top: 490px;
+
+    padding-top: 100px; /* Memberikan ruang atas */
+    padding-bottom: 100px; /* Memberikan ruang bawah */
+
+
+    font-family:' Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.library .container {
+    width: 80%; /* Mengatur lebar kontainer */
+    margin: 0 auto; /* Memusatkan kontainer */
+}
+
+.library .container h2 {
+    text-align: center; /* Mengatur teks ke tengah */
+
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.library .container p {
+    text-align: center; /* Mengatur teks ke tengah */
+
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+
+            /* BUKU START */
+
+            .buku{
+                background-color: white;
+            }
+
+            .buku .container{
+                margin-right: 50px;   /*mengatur lebar dari navbar(buku)*/
+
+                margin-bottom: 20px;
+            }
+
+            .buku .container ul{
+                text-align: center;
+
+            }
+
+            .buku .container ul li{
+                margin-top: 20px;
+                display: inline-block;
+            }
+            
+
+            /* LINK  */
+            .buku .container ul li a{
+                margin-right: 80px;
+
+                list-style-type: none;
+                text-decoration: none;
+                color: #555;
+
+                font-size: 18px; /* Ukuran teks */
+                line-height: 1.5; /* Tinggi baris untuk meningkatkan kejelasan */
+                transition: color 0.3s ease;
+                text-decoration: none;
+            }
+            
+            .buku .container ul li a:hover{
+                color: #000;
+
+                transition: color 0.3s ease;
+
+            }
+            /* LINK  */
+
+            
+
+            /* CARD */
+            .daftar-buku{
+                margin-top: 20px;
+                margin-right: 800px;
+                border: 2px solid black;
+
+
+                margin: auto;
+            }
+
+            .daftar-buku .container{
+            }
+
+            .daftar-buku .container .card{
+
+            }
+
+
+            .daftar-buku .card .Manga-Black-Clover{
+                width: 700px;
+                height: 400px;
+            }
+
+            .daftar-buku .card .text-card{
+                
+                margin-right: 50px;
+
+                line-height: 30px;
+            }
+
+            
+
+
+
+            
+            .daftar-buku .card .button-link{
+                background-color: #F0F2F5;
+                padding: 5px;
+                
+                border: 2px solid #E3E3E3;
+                border-radius: 5px;
+                
+            }
+            .daftar-buku .card .b-link{
+                color: black;
+                text-decoration: none;
+
+            }
+            
+
+            /* KARAKTER */
+            .card1-yami{
+                width: 240px;
+                height: 400px;
+
+                margin-top: -600px;
+                margin-left: -500px;
+            }
+
+            .card1-william{
+                width: 300px;
+                height: 400px;
+
+                margin-top: -600px;
+                margin-left: 700px;
+            }
+            /* KARAKTER */
+
+            /* BUKU END */
+/* LIBRARY END */
+
+
+
+/* KONTAK START */
+.kontak{
+    margin: auto;
+    margin-top: 40px;
+    width: 1200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.kontak h2{
+    text-align: center;
+}
+
+.background-kontak{
+    margin-left: 300px;
+    margin-top: -180px;
+}
+
+.background-kontak img{
+    width: 600px;
+    height: 400px;
+}
+
+.alamat{
+    text-align: center;
+}
+.kontak .sosial-media a{
+    font-size: 26px;    
+    color: green;
+    margin-left: 40px;
+    float: right;    
+}
+
+.kontak .sosial-media .fa-youtube, .fa-discord, .fa-github, .fa-whatsapp, .fa-linkedin{
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+
+    transition: all 550ms ease;
+}
+
+.kontak .sosial-media .fa-youtube:hover, .fa-discord:hover, .fa-github:hover, .fa-whatsapp:hover, .fa-linkedin:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+
+    transition: all 550ms ease;
+
+}
+/* KONTAK END */
+
+
+
+
+
+
+
+
+/* FOOTER START */
+.footer{
+    width: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+/* FOOTER END */

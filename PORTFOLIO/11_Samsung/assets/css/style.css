@@ -1,0 +1,371 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+
+nav{
+    width: 1200px;
+    margin: auto;
+}
+
+nav .container{
+    background-color: white;
+}
+
+nav .container ul{
+    padding: 20px;
+
+}
+
+nav .container ul li{
+    list-style-type: none;
+
+    display: inline-block;
+    
+}
+
+
+nav .container ul li .judul{
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+
+    list-style-type: none;
+    text-decoration: none;
+
+    margin-right: 30px;
+}
+
+nav .container ul li a{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    list-style-type: none;
+    text-decoration: none;
+
+    padding: 8px;
+    transition: all 650ms ease-in 121ms;
+} nav .container ul li a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+nav .container ul li .auth{
+    color: black;
+    font-size: 17.5px;
+
+    list-style-type: none;
+    text-decoration: none;
+
+    margin-left: 20px;
+
+}
+
+
+
+/* Hero START */
+.hero{
+    width: 1200px;
+    margin: auto;
+}
+
+.hero h1{
+    position: absolute;
+    margin-top: 150px;
+    font-size: 44px;
+
+    padding: 40px;
+    z-index: 4;
+}
+
+.hero p{
+    position: absolute;
+    margin-top: 220px;
+
+    padding: 40px;
+    z-index: 3;
+}
+
+.hero .learn{
+    position: absolute;
+    margin-top: 320px;
+
+    padding: 40px;
+
+    color: black;
+    font-weight: 600;
+    z-index: 2;
+} .hero .learn:hover{
+    text-decoration: dashed;
+}
+
+.hero .buy{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 350px;
+
+    padding: 10px;
+
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1;
+    
+} .hero .buy:hover{
+    background-color: rgba(0, 0, 0, 0.631);
+    color: white;
+}
+/* Hero END */
+
+
+/* Promo START */
+.rekomendasi{
+    width: 1200px;
+    margin: auto;
+}
+
+.rekomendasi .container{
+
+}
+
+.rekomendasi .container h1{
+    text-align: center;
+    padding: 40px;
+
+}
+
+.card{
+}
+
+.card .container{
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(224, 224, 224, 0.752);
+
+    border-radius: 10px;
+}
+
+.card .container .deskripsi{
+    text-align: center;
+}
+
+.card .container .deskripsi .baru{
+    background-color: rgb(5, 128, 204);
+    color: white;
+    font-weight: 700;
+
+    border-radius: 100px;
+    width: 54px;
+}
+
+.card .container .deskripsi .p{
+    font-size: 12px;
+}
+
+
+/* WARNA START */
+.card .container .deskripsi .a{
+    background-color: rgb(175, 170, 139);
+    width: 1px;
+    height: 1px;
+
+    padding: 6px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px rgb(175, 170, 139);
+    border-radius: 600px;
+
+    transition: all 100ms ease;
+} 
+.card .container .deskripsi .a:hover, .card .container .deskripsi .b:hover, .card .container .deskripsi .c:hover, .card .container .deskripsi .d:hover, .card .container .deskripsi .e:hover, .card .container .deskripsi .f:hover{
+    padding: 9.4px;
+}
+
+
+.card .container .deskripsi .b{
+    background-color: rgba(42, 0, 139, 0.861);
+    width: 1px;
+    height: 1px;
+
+    padding: 6px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px rgba(42, 0, 139, 0.861);
+    border-radius: 600px;
+    transition: all 100ms ease;
+
+}
+
+.card .container .deskripsi .c{
+    background-color: rgba(60, 60, 60, 0.861);
+    width: 1px;
+    height: 1px;
+
+    padding: 6px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px rgba(60, 60, 60, 0.861);
+    border-radius: 600px;
+    transition: all 100ms ease;
+
+}
+
+.card .container .deskripsi .d{
+    background-color: rgba(191, 172, 0, 0.861);
+    width: 1px;
+    height: 1px;
+
+    padding: 6px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px rgba(191, 172, 0, 0.861);
+    border-radius: 600px;
+    transition: all 100ms ease;
+
+}
+
+
+/* CARD 2 */
+.card .container .deskripsi .e{
+    background-color: rgba(0, 86, 191, 0.861);
+    width: 1px;
+    height: 1px;
+
+    padding: 6px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px rgba(0, 86, 191, 0.861);
+    border-radius: 600px;
+    transition: all 100ms ease;
+
+}
+
+.card .container .deskripsi .f{
+    background-color: rgba(196, 126, 216, 0.861);
+    width: 1px;
+    height: 1px;
+
+    padding: 6px;
+
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px rgba(196, 126, 216, 0.861);
+    border-radius: 600px;
+    transition: all 100ms ease;
+
+}
+/* CARD 2 */
+
+/* WARNA END */
+
+.card .container .deskripsi .storage{
+}
+
+.card .container .deskripsi .storage a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: 600;
+    
+}
+
+.card .container .deskripsi .storage .gb{
+    border-radius: 20px;
+    border: 1.5px solid black;
+    font-weight: 600;
+
+}
+
+.card .container .deskripsi .storage .button{
+    background-color: black;
+    color: white;
+
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 100px;
+} .card .container .deskripsi .storage .button:hover{
+    background-color: rgba(0, 0, 0, 0.631);
+}
+
+/* Promo END */
+
+/* About START */
+.about{
+    margin: auto;
+    width: 1200px;
+}
+
+.about .container{
+    padding: 40px;
+}
+
+.about .container h1{
+    text-align: center;
+}
+/* About END */
+
+
+/* Contact START */
+.kontak{
+    margin: auto;
+    margin-top: 80px;
+    width: 1200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.kontak h2{
+    text-align: center;
+}
+
+.background-kontak{
+    margin-left: 300px;
+    margin-top: -280px;
+}
+
+.background-kontak img{
+    width: 600px;
+    height: 400px;
+}
+
+.alamat{
+    text-align: center;
+}
+.kontak .sosial-media a{
+    font-size: 26px;    
+    color: green;
+    margin-left: 40px;
+    float: right;    
+}
+
+.kontak .sosial-media .fa-twitter, .fa-facebook, .fa-instagram, .fa-whatsapp, .fa-linkedin{
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+
+    transition: all 550ms ease;
+}
+
+.kontak .sosial-media .fa-twitter:hover, .fa-facebook:hover, .fa-instagram:hover, .fa-whatsapp:hover, .fa-linkedin:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+
+    transition: all 550ms ease;
+
+}
+/* Contact END */
