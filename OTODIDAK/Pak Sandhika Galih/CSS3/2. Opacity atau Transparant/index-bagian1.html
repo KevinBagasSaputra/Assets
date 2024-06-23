@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+    <!--Opacity =   digunakan, untuk mengatur transfaran sebuah elemen-->
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .satu{
+            width: 300px;
+            height: 300px;
+            background-color: #f60;
+            opacity: .5 ; /*valeu-nya bisa 0 sampai 1
+            
+                            - 0     sangat transparan sampai background-nya tidak kelihatan
+                            - 1     opacity nya 100% */
+
+            position:relative
+        }
+
+        .dua{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+
+            position:absolute;
+            right: -50px;  /*supaya keluar dari kotak satu*/
+            bottom: -50px;
+
+            opacity: 1;       /*1 = tidak transparant, sedangkan 0 = transparant*/
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="satu">          <!--Semua elemen di dalam div-satu akan transparann, karena 
+                                        -div-2 mewakili div-satu    -->
+        <div class="dua"></div>
+    </div>
+
+</body>
+</html>

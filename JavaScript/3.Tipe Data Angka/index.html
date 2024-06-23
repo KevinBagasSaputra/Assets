@@ -1,0 +1,44 @@
+<!-- Angka di re-presentasikan sebagai berikut;
+
+    "Number in javascript are
+    double-precision (floating point)
+    64-bit format IEEE 754 values"
+
+    #Dalam javascript integer, atau bilangan bulat (TIDAK ADA),
+
+ #yang ada hanya                            #ukuran angka yang dapat di tampung di javascript
+floating point  (Bilangan pecahan)          - 64-bit   (yang berarti kita daoa menampung angka 2pangkat 64 -bit 
+                                           atau 8x10 pangkat 18
+                                            atau 18 x 1000 000 000 000 000 000
+                                                - 18 x 1 miliar miliar
+
+#! Penting!!!   #Jangan pernah (mengawali angka dengan 0)    
+                karena akan dianggap sebagai bilangan ( oktal (bilangan basis 8, 0-7)) bukan bilangan (desimal(basis 10 dari 0-9))                                            
+
+                hexadesimal basis 16 
+
+                #di-dalam javascript terdapat 
+                    -Angka Spesial =>   Contoh 
+                       - Infinity  => 2 / 0 (Infinity)
+                       -    -Infinity (minus Infinity) => -2 / 0 ( -Infinity ) 
+                       - NaN(not a number)  => 0 / 0 (NaN) (NaN = dapat diasilkan jika kita membagi angka dengan string)
+                       - 
+      di bawah ini yang dapat kita simpan                                          
+#Angka
+------------------------------------------------------
+1. Angka tanpa desimal 
+    -misalnya = 10, 1500, 123456
+        # akutar sampai 15 digit
+    
+2. Angka dengan desimal (atau bilangan pecahan)
+    -miisalnya = 3. 14, 0.5, 100.00
+        #Hati-hati di javascript (koma ( , ) di gantikan dengan titik( . ) 
+            ## Hati-hati saat mengitung pecahan, karena hasilnya tidak begitu akurat
+
+3. Eksponen (menyimpan bilangan yang sangat besar, atau bilangan sangat kecil)
+    -misalnya = 123e5 akan menghasilkan => ( 12300000 ) 12jt 300rb
+    -atau = 123e-5 //0.00123        
+
+4. Bilangan negatif (kita dapat juga menyimpan bilangan negatif)
+    - 
+-->

@@ -1,0 +1,1 @@
+alert("Hello Wolrd");  //Untuk menampilkan kata "Hello Wolrd"

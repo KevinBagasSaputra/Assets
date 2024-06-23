@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //di bawah ini syntax if, else;
+        /*  if(kondisi) 
+        {
+            aksi 1      //Lakukan aksi 1, jika kondisi bernilai true
+        }
+            else
+        {
+            aksi 2      //lakukan aksi 2, jika kondisi bernilai false
+        }*/
+
+        //contoh sederhana lainnya,
+        //MENGECEK SEBUAH NILAI ITU BILANGAN GENAP, atau GANJIL;
+
+        var angka = prompt('Masukkan Angka: ');
+
+        if (angka % 2 == 0){
+            //jika angka di bagi 2 = 0, sisah-nya 0 atau habis
+        // maka hasil-nya adalah 'GENAP', selain dari itu hasilnya 'GANJIL'
+            alert(angka + " " + 'adalah bilangan GENAP');
+        } 
+        
+        else if (angka % 2 == 1){
+            alert(angka + " " +'adalah bilangan GANJIL');
+            // jika ada sisah-mya maka hasil-nya GANJIL
+        }
+
+        else{
+            alert("yang anda masukkan bukan angka!")
+        }
+
+    </script>
+</body>
+</html>

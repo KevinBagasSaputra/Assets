@@ -1,0 +1,115 @@
+/* Style */
+body {
+    /*Bisa sekaligus, bisa manual (penggunaan (font)*/
+
+    /*sekaligus*/ /*font: 16px/28px, arial, sans-serif;*/  /*font standar*/
+
+    /*dibawah ini manual atau sendiri-sendiri*/
+    font-size: 16px/28px; /*ukuran standar*/
+    font-family: arial, sans-serif;
+
+
+    /*background-color (properti dan warna)*/
+    /*background-color: #000000;    warnanya hitam*/
+    /* background-color: #ffffff: warnanya putih*/
+
+    /*kita mengasih warna abu abu muda*/
+    background-color: #eaeaea;
+
+    /*warna pada teks - abu abu tua*/
+    color: #333333;
+}
+
+
+.container{
+    width: 800px;
+    margin:auto;  /*Untuk ketengah*/
+    
+    background-color: white; /*warna background (putih)*/
+}
+
+/*           HEADER START      */
+
+.header{
+    padding: 20px; /*agar tulisannya tidak terlalu dempet*/
+    padding-bottom: 10px; /*memperdekat jarak navigasi ke image*/
+}
+
+.header .judul{ /*elemen dengan kelas judul yang ada di elemen kelas header*/
+    
+    font-size: 40px;
+    font-weight: bold; /*Untuk menebalkan tulisannya*/
+}
+
+ 
+.header ul li{
+    display: inline-block;  /*Karena ingin mengatur marginnya*/  /*agar tulisannya kesam\   margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none; /*untuk menghilangkan garis bawah = pada link*/
+    color: salmon; /*mengubah warna default pada link= menjadi warna oren*/
+    padding: 3px; /* menambah lebar atau ukuran dalam area teks */
+                    
+
+}
+
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+/*                  HEADER CLOSE                      */
+
+
+
+
+/*                  hero START                      */
+
+.hero{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&q=80&w=928&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    /* 0 = mengatur (horizontal)   [pertama]*/  /*kanan kiri */
+    /* 0 = mengatur (vertikal)    [kedua]*/    /*atas bawah*/
+    background-position: 0 0px;
+    border-bottom: 5px solid rgb(0, 0, 0); /*bottom = BAWAH*/
+    border-top:  5px solid salmon; /*top = ATAS*/
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -15px; /*agar tulisannya keatas*/
+}
+
+.content a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p{
+    margin-bottom: 20px;
+}
+
+
+/*                 CONTENT END                      */
+
+.footer{
+    background-color: #333333; /*abu-abu tua*/
+    padding: 10px;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center; /*tulisannya ketengah*/
+    font-size: 12px;
+}

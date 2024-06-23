@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Angkot 2 dengan PENGULANGAN FOR</title>
+</head>
+<body>
+    
+    <script>
+    var jmlAngkot = 10;     /*variabel jmlAngkot, mempunyai nilai = 10*/
+    var angkotBeroperasi = 6;       /*variabel angkotBeroperasi mempunyai nilai = 6*/
+    var noAngkot = 1;    /*variabel noAngkot mempunyai nilai = 1*/
+
+    while (noAngkot <= angkotBeroperasi){
+        console.log("Angkot No. "+ noAngkot +" beroperasi dengan baik.");
+
+        noAngkot++;
+    } 
+
+                                    /*jadi, berapapun angkot yang beroperasi, angkot setelah-nya tidak beroperasi.
+                        6   +    1   = 7, jadi angkot-nya di mulai dari angka 7*/
+    for (noAngkot = angkotBeroperasi +1; noAngkot <= jmlAngkot; noAnkkgkot++){
+        console.log("Angkot No. "+ noAngkot +" sedang tidak beroperasi.")
+    }
+    </script>
+</body>
+</html>

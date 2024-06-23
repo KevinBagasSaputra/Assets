@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var noAngkot = 1;
+        var angkotBeroperasi = 6;
+        var jmlAngkot = 10;
+
+        for (noAngkot; noAngkot <= jmlAngkot; noAngkot++){
+
+            if (noAngkot <= angkotBeroperasi && noAngkot !== 5){
+                //jika angkot lebih kecil dari 6 &&(dan) bukan angka 5 maka tampilkan ini
+                console.log("Angkot No. "+ noAngkot +" beroperasi sedang baik.")
+            }
+
+            else if (noAngkot == 8 || noAngkot == 10 || noAngkot == 5){
+                                //bisa menggunaka || untuk membuat else if lebih dari 1
+                console.log("Angkot No. "+ noAngkot +" sedang lembur.")
+            }
+
+
+            else {
+                console.log("Angkot No. "+ noAngkot +" sedang tidak dapat beroperasi.")
+            }
+
+        }
+
+    </script>
+</body>
+</html>

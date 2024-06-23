@@ -1,0 +1,221 @@
+body{           
+    background-color: rgb(182, 182, 182);   /*memberi warna pada background luar*/
+}
+
+.container{
+    width:900px;   /*lebar dari artikel*/
+    margin: auto;   /*untuk ke-tengah*/
+    background-color: white;  /*warna background artikel putih*/
+    
+}
+
+.container .judul{
+    color: white;   /*warna teks putih*/
+    margin-bottom: -15px;   /*agar ke-bawah karena terdapat (-) tanda negatif*/
+    background-color: black;  /*warna background hita,*/
+    font-size: 29px;    /*ukuran font 29*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header ul li{
+    list-style-type: none;  /**/
+    display: inline-block;  /*agar menyatu dalam satu baris*/
+}
+
+.header ul{
+    background-color: rgba(169, 169, 169, 0.517);  /*warna background ul abu-abu*/
+    padding: 5px;  /*membuat lebar isi teks*/
+    font-size: 16px;  /*ukuran font 16px*/
+    
+}
+
+.header a{
+    text-decoration: none;  /*menghilangkan garis bawah pada link */
+    padding: 5px; /*membuat lebar teks*/
+    color: crimson;  /*warna pada teks merah*/
+    margin-right: 20px;  /*teks lebar ke kanan*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-weight: 700;
+
+    transition: background-color 3s ease;
+}
+
+
+.header a:hover{  /*hover = ketika link di kerahkan*/
+    border: 3px solid whitesmoke;   /*memuncul-kan border pada saat di-arahkan*/
+    background-color: rgba(0, 0, 0, 0.236);   /*warna background akan berubah. Ketika mouse atau kursor di arahkan, ke Link*/
+}
+
+.hero{
+    margin-top: -15px;   /**/
+}
+
+.furina{   
+    width: 300px;  
+    float: left;
+    margin-left: 50px;
+}
+
+.furina h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.furina img{
+    width: 300px;
+
+    margin-left: -2px;
+    border: 2px solid gray;
+}
+
+.furina h4{
+    margin-top: -4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(51, 0, 255);
+    background-color: rgba(128, 128, 128, 0.404);
+
+    box-shadow: 0 0 1px 1px black;
+}
+
+.furina .properti{
+    margin-top: -19px;
+}
+.p-rarity{
+    width: 54px;
+    box-shadow:  0 0 1px 1px black;
+    height: 20px;
+    font-size: 15px;
+}
+
+.p-star{
+    margin-left: 55px;
+    margin-top: -35px;
+    font-size: 15px;
+    color: gold;
+
+    padding-left: 15px;
+    box-shadow:  0 0 1px 1px black;
+}
+
+.section-element{
+    margin-top: -13px;
+}
+
+.p-element{
+    width: 54px;
+    box-shadow:  0 0 1px 1px black;
+    height: 20px;
+    font-size: 15px;
+}
+
+.p-hydro{
+    margin-left: 55px;
+    margin-top: -35px;
+    font-size: 15px;
+    height: 20px;
+    
+    padding-left:  15px;
+    box-shadow:  0 0 1px 1px black;   
+}
+
+
+.furina-sub .sub{
+    padding: 45px;
+}
+
+.furina-sub .sub .h2-furina-sub{
+    margin-left: 340px;
+
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    border-bottom: 2px solid black;
+}
+
+.furina-sub .sub ul{
+    margin-left: 340px;;    
+}
+
+.furina-sub .sub .li-content{
+    list-style-type: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.furina-sub .sub .li-content-2{
+    background-color: rgba(42, 42, 71, 0.184);   
+
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sub p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-furina-team .h2-furina-team{
+    border-bottom: 2px solid black;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.furina-team h3{
+    box-shadow: 0 0 1px 0 black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    justify-content: center;
+    display: flex;
+
+    width: 200px;
+    font-size: 20px;
+}
+
+.furina-team img{
+    width: 200px;
+    margin-top: -20px;
+
+    box-shadow: 0 0 1px 0 black;
+}
+
+.penulis a{
+    text-decoration: none;
+    color: rgb(73, 182, 249);
+}
+
+.penulis a:hover{
+    text-decoration: underline solid blue;
+    font-size: 18px;
+    color: rgba(58, 147, 202, 0.539);
+}
+
+
+.footer{
+    background-color: grey;
+    padding: 10px;
+}
+
+
+
+.copy{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #eaeaea;
+}
+
+
+.posisi{
+    position: fixed;
+    border-bottom: 5px solid red;
+    width: 890px;
+}
+
+
+
+

@@ -1,0 +1,48 @@
+<!-- Control Flow atau (Alur kendali)
+
+    #apabila program kita memiliki
+    "lebih dari satu statement", maka statement tersebut
+    akan 'dieksekusi' dari atas ke bawah atau
+            dari "kiri ke kanan"
+
+    - contoh program sederhana:
+        - alert('Halo');
+        - alert('nama');
+        - alert('saya');
+        - alert('Kevin');   #dieksekusi dari atas ke bawah
+    
+    - contoh lain:
+        - var angka = prompt('Masukan Angka: ');
+        - alert ( "Angka yang anda masukkan adalah: " + angka)
+    
+    
+    Control Flow:     #dengan COntrol Flow, kita dapat mengontrol alur-nya jadi tidak hanya dari atas ke bawah. Namun kita dapat mengontrolnya jika ada kondisi tertentu yang tidak ingin kita eksekusi
+    1. Pengulangan (loop / literation) => sebua konsep untuk mengerjakan, atau meng-eksekusi sebua statement sama lebih dari 1(satu) kali, atau mengulang
+                    #kita melakukan pengulangan pada suatu statement tersebut, sampai selesai. Selanjutnya kita lanjut-kan ke statement 
+
+        - Syntax Pengulangan (Javascript);
+            - for       =       - alert('Mulai');
+                                for(var i = 0; i < 5; 1++) {
+                                alert('Hello World!');
+                                }
+                                alert('selesai');
+            - while
+            - do while
+
+
+    2. Pengkondisian (if, elif, else) =>  Sebuah keadaan dimana, program kita bisa memilih statement yang berbeda, berdasarkan kondisi yang diberikan
+                                                - jika bernilai "true", maka selanjut-nya akan meng-eksekusi statement yang berada dibawah-nya,
+                                                - jika bernilai "false", maka yang di-eksekusi yang lain.
+
+        - Syntax Percabangan / Pengkondisian;
+            - if        =       - var angka = prompt('Masukkan angka: ');
+                                  if( angka % 2 === 0){
+                                    alert(angka + " adalah bilangan GENAP");
+                                  } else {
+                                    alert(angka + " adalah bilangan GANJIL");
+                                  }
+            - if.. else
+            - if.. else if.. else
+            - switch
+
+-->

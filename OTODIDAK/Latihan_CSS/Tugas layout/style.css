@@ -1,0 +1,119 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.div-1 {
+  /*yang megnatur tata letak dari (ul-1) dan (h1) dan (li)*/
+  text-decoration: none;
+  display: flex; /* dari atas ke tengah (1 line) */
+  background-color: green;
+  justify-content: center; /* mengubah posisi konten ke tengah (gambar, teks, dll) */
+  align-items: center; /* paragraf rata kanan kiri*/
+  margin: 10px;
+  padding: 15px;
+}
+
+.ul-1 {
+  text-decoration: none;
+  display: flex; /* menyatkan h1 dan list lain */
+}
+
+.h1 {
+  list-style-type: none;
+  font-family: sans-serif; /* mengatur enis dari font-nya */
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.li {
+  /* margin dan padding (untuk mengatur jarak ) */
+  list-style-type: none; /* mengilangkan titik tengah pada text */
+  color: white;
+  margin: 10px;
+  padding: 2px;
+  text-decoration: none; /* Menghilangkan garis bawah */
+  font-size: 25px; /* mengatur ukuran pada teks */
+  font-family: Franklin Gothic Medium; /* mengatur jenis dari font-nya */
+}
+
+.li:hover {   /*mengatur animasi masuk pada background-color*/
+  border-radius: 8px;
+  background-color: rgb(44, 60, 42);
+}
+
+.div-2 {
+  /* yang mengatur tata letak dari (ul-2) dan (li-2) */
+  align-items: center;
+  justify-content: center;
+}
+
+.li-2 {
+  /*yang mengatur tata letaknya*/
+  align-items: center;
+  justify-content: center;
+  display: flex; /* kunci untuk menggunakan (align item) dan (justify content) */
+}
+
+.gambar-1 {
+  width: 90%;
+  display: flex;
+}
+
+.div-3 {
+  /* yang mengatur tata letak dari garis-gambar */
+  display: flex;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.garis-gambar {
+  text-decoration: none;
+  list-style-type: none;
+  color: green;
+}
+
+.div-4 {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+}
+
+.h2 {
+  color: green;
+  font-family: Franklin Gothic Medium;
+  font-size: 34px;
+}
+
+.gambar-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50%;
+  border-radius: 13px;
+}
+
+.p {
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: 30px;
+  padding: 100px;
+}
+
+.h3 {
+  color: green;
+  display: block;
+  font-size: 24px;
+}
+
+.button {
+  background-color: gold;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+}

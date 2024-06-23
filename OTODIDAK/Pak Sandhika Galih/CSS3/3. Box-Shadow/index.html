@@ -1,0 +1,35 @@
+<!-- box-shadow
+
+    -berfungsi untuk memberikan bayangan pada elemen yang kita buat-->
+
+<!-- #Menambah bayangan pada box-shadow
+        #dibawah ini 4 parameter    #waji digunakan pada box-shadow
+    - <x-offset>   - <y-offset>    - <blur> - <color>
+    - x = horizontal  - y = vertikal  - <seberapa besar>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: #39b54a;
+
+            margin: 50px auto; /*untuk ketengah*/
+                       /*x (horizontal)*/  /*y (vertikal)*/  /*blur*/ /*warna*/
+            box-shadow: 5px                 5px              5px      black;
+
+            /*jika ingin berada ke kiri(bayangan-nya) kita hanya perlu menambah-kan -(minus) pada satuan px*/
+            /*contoh ke-2 =   box-shadow: 5px; 5px; 5px rgba(0,0,0,.75);*/
+        }
+    </style>
+</head>
+<body>
+    
+    <div></div>
+
+</body>
+</html>

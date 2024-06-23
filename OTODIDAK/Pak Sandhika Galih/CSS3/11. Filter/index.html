@@ -1,0 +1,85 @@
+<!-- filter: <tipe-filter>;  
+#efek Filter yang dapat digunakan
+
+    blur            (px)
+    brightness   (angka | %)
+    contrast     (angka | %)
+    saturate     (angka | %)
+    grayscale    (angka | %)
+    sepia        (angka | %)
+    hue-rotate      (deg)
+    invert       (angka | %)
+    opacity      (angka | %)
+    drop-shadow(sama seperti box-shadow)
+-->
+
+
+<!-- # dengan menggunakan filter hitung operasi matematik tersebut menggunakan bantuan hardware kita,
+    atau bisa di sebut-juga hardware acceleration,
+
+#sedangkan properti opacity, box-shadow dan teks-shadow mereka murni menggunakan kemampuan browser kita,
+jadi menggunakan filter lebih cepat prosesnya dibandingkan properti CSS biasa, karena yang bekerja hardware komputer kita!
+
+#kekurangan filter, filter ini masih dalam experimental jadi kemungkikan ada browser yang belum support-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutter</title>
+
+    <style>
+
+        body{
+            text-align:center;
+        }
+
+
+        img{    /*blur*/
+            filter: blur(1px);  /*default = 0px*/
+        }
+
+        img{    /*brightness*/ 
+            filter: brightness(100%); /*default = 100%*/
+        }
+
+        img{    /*contrast*/
+            filter: contrast(150%); /*default = 100%*/
+        }
+
+        img{    /*saturate*/
+            filter:saturate(150%); /*default = 100%*/
+        }
+
+        img{    /*grayscale*/  /*berubah menjadi warna abu abu*/
+            filter: grayscale(20%); /*default = 0*/
+        }
+
+        img{    /*sepia*/  /*berubah menjadi warna kuning*/
+            filter: sepia(100);  /*default = 0%*/
+        }
+
+        img{    /*hue-rotate   (memutar roda warna)*/
+            filter:hue-rotate(100deg); /*100 derajat searah jarum jam*/
+        }
+
+        img{    /*invert    (akan membuat fotonya seperti negatif film*/
+            filter:invert(100%); /*default = 0%*/
+        }
+
+        img{    /*opacity   membuat elemen menjadi transparan*/ 
+            filter:opacity(0.5); /*default = 0%*/
+        }
+
+        img{    /*drop-shadow*/ /*nilai-nya sama seperti box-shadow, ada x-offset, y-offset, blur, warna*/
+            filter:drop-shadow(5px 5px 5px black);   /*drop-shadow dapat menempelkan shadow-nya pada gambar yang kosong bagian belakangnya*/
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_640.jpg">
+
+</body>
+</html>

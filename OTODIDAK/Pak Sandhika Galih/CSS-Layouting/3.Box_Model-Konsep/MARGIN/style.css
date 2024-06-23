@@ -1,0 +1,41 @@
+
+
+
+.satu {
+    
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    /*30px = atas   50px = kiri dan kanan   40px = bawah */
+    margin:30px 50px  40px; /*Akan membuat ke 4 sisi nya memiliki margin 50 px*/
+        /*Searah jarum jam*/
+        /*10px = atas   20px = kanan    30px = bawah    40px = kiri*/
+    /* margin = 10px 20px 30px 40px*/
+
+
+    /*Kita menambahkan (area transparant di sebelah kiri *left*)*/
+   /* margin-left: 100px; /*margin = area transparat di sekitar kotak*/
+
+    /*Atas = top*/
+    /* margin-top: 30px;
+
+    /*Bawah = bottom*/
+    /* margin-bottom: 150px;
+
+    /*Kanan = right*/
+    /* margin-right: 50px; */
+}
+
+.dua {
+    width:100px;
+    height: 100px;
+    background-color: lightblue;
+    
+}
+
+.tiga {
+    width: 50px;
+    height: 59px;
+    background-color: violet;
+
+}
