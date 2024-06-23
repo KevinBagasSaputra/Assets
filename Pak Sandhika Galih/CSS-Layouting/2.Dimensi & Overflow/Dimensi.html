@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensi & Overflow</title>
+    <style>
+        .satu {  /*default div = block*/
+            width: 200px; /* dimensi*/
+            height: 200px; /* dimensi */
+            background-color: pink;
+            /* satuan px = absolut => nilainya pasti */
+            /* satuan % (persen) = relatif => relatif terhadap parent atau pembungkusnya*/
+            /* satuan = (in, cm, mm, pt, pc) */
+        }
+
+        .dua {
+            width: 100%; /*relatif lebar sesuai pembungkusnya*/
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu"> 
+        <div class="dua"> Hello World </div>
+    </div>
+</body>
+</html>

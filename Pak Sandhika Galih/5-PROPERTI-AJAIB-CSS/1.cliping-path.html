@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliping Path</title>
+    
+    <style>
+
+        img{            /*atas*/  /*kanan*/  /*bawah*/ /*Kiri*/
+            clip-path:inset(0px     0px        0px       0px);  /* KOTAK */
+
+            clip-path: circle(0);  /* bulat */
+
+
+                /*elipse = sumbu X dan sumbu Y  */
+                /*kanan 100px  kiri 200px*/
+            clip-path: ellipse(100px 200px);
+
+            clip-path: polygon();  /*mengatur dengan bebas potongan gambar (sumbu X , dan sumbu Y*/
+
+
+            h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 60px;
+                text-align: center;
+
+                background-image: url(c:\Users\kevin\Videos\Captures\Wallpaper.png);
+                background-attachment: fixed;
+
+                -webkit-text-fill-color: transparent;
+                /*-webkit-background-clip: text;*/  /*-webkit- = belum di support atau masih eksperimental*/
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="c:\Users\kevin\Videos\Captures\Wallpaper.png" alt="tes" style="width: 600px; height: 600px;">
+
+    <h1> Web Programming Unpas</h1>
+</body>
+</html>

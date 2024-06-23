@@ -1,0 +1,102 @@
+<!--kita dapat melakukan animasi dengan 2 cara
+
+    properti css untuk melakukan animasi
+    1. properti transition      =  keadaan awal  dan keadaan akhir
+    2. properti animation       =   keyframe #1, keyframe #2, keyframe, #3 keyframe #4, keyframe #5 
+
+        #stnyax animation;   #menulis-nya diluar selector       - keterangan
+            @keyframes [name] {                             [name] =nama animasi kita mau apa!
+                from {  /*keadaan awal*/
+                    [property-css]
+                }
+
+                to {  /*keadaan akhir*/
+                    [property-css]
+                }
+            }-->    
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .kotak{
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+
+            /*kita juga dapat menaruh perintah animation pada div dengan kelas kotak
+            contoh;
+
+            animation: animasikotak 2s ease;            
+            
+            #jika bukan di hover, dia akan memuat animasi pada awal web-nya kita buka
+            */
+        }
+
+
+            .kotak:hover{                       /*2 kali ber-ulang*/
+            animation: animasikotak 2s eases 2;  
+            /*animation: animasikotak 2s ease 2;*/ /*ini short-cutnya
+            kita juga dapat menulisnya satu per satu. Seperti di bawah ini;
+            
+            animation-name: animasikotak;
+            animation-duration: 2s;
+            animation-timming-function: ease;
+            animation-iteration-count: infinite;
+            */
+            
+        } 
+
+        @keyframes animasikotak {
+            0%{
+                width: 200px;
+            }
+
+            50%{
+                width: 500px;
+                height: 200px;
+            }
+
+            100%{
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+</body>
+</html>
+
+
+<!-- nilai animation:
+
+    [name]  [duration]  [timming-function]
+    [delay] [iteration-count]   [direction]
+    [fill-mode] [play-state]
+
+    #keterangan;
+    wajib
+  - [name] = (nama dari animasi-nya). Yang harus sama dari @keyframes yang kita buat
+
+  - [duration] = (durasi dari animasi-nya)
+
+  - [iteration-count]    bisa kita kasih angka, atau infinite
+  (<angka> = mau berapa kali mengulang-nya
+    
+    infinite = di-ulang terus menerus)
+
+  - [direction] di bawah ini adalah nilai dari direction
+
+    normal(nilai default)  =   berjalan normal. dari awal hingga akhir
+
+    reverse     =   kebalikan dari normal, akhir dulu baru awal
+
+    -->

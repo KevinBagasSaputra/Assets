@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 4</title>
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran Pelatihan Pemrograman Web:</h1>
+    <from action="#">
+      <fieldset>
+        <table>
+          <tr>
+            <td>
+              <label for="nama_lengkap">Nama Lengkap: </label>
+            </td>
+            <td>
+              <input type="text" name="nama_lengkap" id="nama_lengkap" /><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="nomorindukkependudukan">Nomor Induk Kependudukan:</label>
+              </label>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="nomorindukkependudukan"
+                id="nomorindukkependudukan"
+              /><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="tempatlahir">Tempat Lahir: </label>
+            </td>
+            <td>
+                <input type="text" name="tempatlahir" id="tempatlahir"><br>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="tanggallahir">Tanggal Lahir: </label>
+            </td>
+            <td>
+                <input type="datetime-local" name="tanggal" id="tanggal">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="kategori"> kategori: </label>
+            </td>
+            <td>
+                <select name=" kategori " id=" kategori ">
+                    <option value=" jakarta "> Jakarta </option>
+                    <option value=" surabaya "> Surabaya </option>
+                    <option value=" medan"> Medan </option>
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+                <label for="Pendidikan Terakhir">Pendidikan Terakhir: </label>
+            </td>
+            <td>
+                <input type="radio" name="SMK" id="SMK">
+                <label for="SMK">SMK</label>
+            
+            
+                <input type="radio" name="diploma3" id="diploma3">
+                <label for="diploma3">Diploma 3</label>
+            
+            
+                <input type="radio" name="satra1" id="satra1">
+                <label for="satra1">Satra 1</label>
+            
+                <input type="radio" name="satra2" id="satra2">
+                <label for="satra2">Satra 2</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="nomor">Nomor Telepon: </label>
+            </td>
+            <td>
+                <label for="tel"><input type="tel" name="Nomor Telepon" id="Nomor Telepon" value="+62"></label> 
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="alamatemail">Alamat Email: </label>
+            </td>
+            <td>
+              <input type="text" name="alamatemail" id="alamatemail"> 
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <label for="pelatihan">Pelatihan yang dipilih: </label>
+            </td>
+            <td>
+              <input type="checkbox" name="pelatihan" id="pelatihan">
+              <label for="html">HTML</label> 
+
+              <input type="checkbox" name="css" id="css">
+              <label for="css">CSS</label>
+
+              <input type="checkbox" name="js" id="js">
+              <label for="js">Javascript</label> 
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="alasan">Alasan singkat mengikuti pelatihan: </label>
+            </td>
+            <td>
+              <textarea name="alasan" id="alasan" cols="10" rows="2"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="upload">Upload Dokumen CV: </label>
+            </td>
+            <td>
+              <input type="file" value="Chose File">
+            </td>
+          </tr>
+        </table>
+        <input
+        type="submit"
+        onclick="alert('Terima Kasih Sudah Mengisi')"
+        value="Kirim">
+        <input type="reset">
+      </fieldset>
+    </from>
+  </body>
+</html>

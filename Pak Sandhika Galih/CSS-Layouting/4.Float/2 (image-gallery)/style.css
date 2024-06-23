@@ -1,0 +1,23 @@
+.container{
+    width:600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+.kotak{
+    width: 80px; /*Lebar si ( kotak )*/
+    height: 80px; /*TInggi si ( kotak )*/
+    color: white; /*Warna tulisan si ( Content )*/
+    background-color: salmon; /*warna si ( kotak )*/
+    text-align: center; /*Membuat tulisan ke ( Tengah )*/
+
+    font-size: 30px; /*Mengubah ukuran ( Font ) menjadi ( Besar )*/
+
+
+    line-height: 80px; /*Membuat tulisan-nya ( Tinggi ) sesuai kotaknya*/
+
+    margin: 2px; /*supaya  ( Berjarak )*/
+
+    float: left; /*membuat ( Berjejer ) ke ( Kanan )*/
+}
